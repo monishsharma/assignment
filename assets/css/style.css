@@ -215,6 +215,7 @@ width: 100%;
 
 .active,
 .dot:hover {
+  content: '';
     background-color: #717171
 }
 
@@ -386,38 +387,7 @@ footer{
   margin-top: 20px;
   position: relative;
 }
-.ct-footer-pre {
-  width: 100%;
-  padding-bottom: 55px;
-  border-bottom: 1px solid #555;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-.ct-footer-pre span {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: black;
-  font-size: 30px;
-}
-.ct-footer-pre .form-group {
-  position: relative;
-  margin: 0;
-}
-.ct-footer-pre .form-group:before,
-.ct-footer-pre .form-group:after {
-  content: '';
-  display: table;
-}
-.ct-footer-pre .form-group:after {
-  clear: both;
-}
-.ct-footer-pre .form-group input {
-  border: 1px solid #00bff3;
-  background-color: #333;
-  color: #fff;
-  height: 50px;
-  padding: 0 30px;
-  margin: 0 5px;
-  border-radius: 0 !important;
-}
+
 .ct-footer-pre .form-group button {
   height: 50px;
   position: relative;
@@ -507,181 +477,8 @@ margin-top: 10px;
 .ct-footer--with-button {
   padding-top: 150px;
 }
-address {
-  color: #fff;
-  display: inline-block;
-}
-address span {
-  font-weight: 600;
-}
-address a {
-  color: #fff;
-}
-address a:hover {
-  text-decoration: underline;
-}
-.btn {
-  font-family: 'Open Sans Condensed', sans-serif;
-  border-radius: 0;
-  border: none;
-  text-transform: uppercase;
-  color: #111;
-  font-size: 26px;
-  padding: 12px 30px;
-}
-.btn.btn-motive {
-  background-color: #00bff3;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-}
-.btn.btn-motive:hover,
-.btn.btn-motive:hover:active {
-  background-color: #00bff3;
-}
-.btn.btn-violet {
-  color: #fff;
-  background-color: #4f4f99;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-}
-.btn.btn-violet:hover {
-  background-color: #37376b;
-}
-.btn.btn-violet:hover:active {
-  background-color: #2f2f5b
-}
-.btn.btn-green {
-  color: #fff;
-  background-color: #43670f;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-}
-.btn.btn-green:hover {
-  background-color: #36520c;
-}
-.btn.btn-green:hover:active {
-  background-color: #314a0b;
-}
-.btn.btn-red {
-  color: #fff;
-  background-color: #da2229;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-}
-.btn.btn-red:hover {
-  background-color: #ae1b21;
-}
-.btn.btn-red:hover:active {
-  background-color: #9d181e
-}
-.btn.btn-white {
-  background-color: #fff;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-}
-.btn.btn-white:hover {
-  background-color: #d9d9d9;
-}
-.btn.btn-white:hover:active {
-  background-color: #c9c9c9
-}
-.btn.btn-large {
-  padding: 20px 50px;
-  font-size: 30px;
-  white-space: normal;
-}
-.ct-mediaSection {
-  background-attachment: fixed;
-}
-.ct-section_header--type1 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #000;
-  font-size: 115px;
-  text-transform: uppercase;
-}
-.ct-section_header--type2 small {
-  font-family: 'coquette', fantasy;
-  font-size: 58px;
-  line-height: .7;
-  display: block;
-  font-weight: 700;
-  position: relative;
-  left: -12px;
-}
-.ct-section_header--type2 span {
-  font-family: 'Bebas Neue';
-  font-size: 115px;
-  line-height: .8;
-}
-.ct-section_header--type2 img {
-  display: inline-block;
-  float: left;
-  position: relative;
-  top: 15px;
-  padding-right: 3px;
-}
-.ct-section_header--type3 {
-  text-align: center;
-}
-.ct-section_header--type3 small {
-  font-family: 'coquette', fantasy;
-  font-size: 50px;
-  padding: 15px 0;
-  font-weight: 700;
-  color: #fff;
-  background-image: url("/core/fileparse.php/16/urlt/../images/ribbon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block
-}
-.ct-section_header--type3 span {
-  font-family: 'Bebas Neue';
-  font-size: 150px;
-  font-weight: 400;
-  text-transform: uppercase;
-  line-height: .85
-}
-.ct-section_header--type4 {
-  text-align: center;
-}
-.ct-section_header--type4:before,
-.ct-section_header--type4:after {
-  content: '';
-  display: table
-}
-.ct-section_header--type4:after {
-  clear: both
-}
-.ct-section_header--type4 small {
-  font-family: 'coquette', fantasy;
-  font-size: 50px;
-  color: inherit;
-  font-weight: 700;
-  display: block
-}
-.ct-section_header--type4 span {
-  font-family: 'nimbus-sans-condensed', sans-serif;
-  font-weight: 400;
-  font-weight: bold;
-  font-size: 150px;
-  text-transform: uppercase;
-  display: block;
-  line-height: .7
-}
-.ct-section_header + p {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: -1.5px;
-  text-align: center;
-}
-.ct-section_header--type4 + p {
-  font-family: 'nimbus-sans-condensed', sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1;
-}
+
+
 
 .modal {
   display: none; 
@@ -870,12 +667,59 @@ li .social {
   padding: 30px;
 }
 
+.accordion {
+  display: none;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
 
 
+.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
 
+.activeAccordion:after {
+  content: "\2796"; 
+}
+.panel ul {
+  text-decoration: none;
+  list-style: none;
+}
+.panel a {
+  color:black;
 
+}
+.panel a:hover {
+  opacity: 0.7;
 
+}
+.panel ul i {
 
+margin-top: 10px;
+}
 
 
 
@@ -982,6 +826,22 @@ li .social {
   }
   #first-nav{
     display: none;
+  }
+  .workWithUs h1{
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 20px 0px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    font-size:25px;
+    font-weight: normal;
+  }
+  .workWithUs p{
+    margin: 20px 0 50px 140px;
+    font-style: italic;
+    width: 60%;
+    text-align: center;  
+    letter-spacing: 1.5px;
   }
   .thumbnail img {
    
@@ -1096,6 +956,13 @@ li .social {
   .nav-dropdown {
     position: static;
   }
+  .accordion{
+    display: block;
+  }
+  
+  .ct-footer-list{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 799px) {
@@ -1159,6 +1026,13 @@ footer {
     text-align: center;
     width: 100%;
     margin-top: 10px
+  }
+  .accordion{
+    display: block;
+  }
+  
+  .ct-footer-list{
+    display: none;
   }
 }
 
